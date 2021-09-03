@@ -24,7 +24,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              {
+                "input": "node_modules/@progress/kendo-theme-material/dist/all.css"
+              },
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -39,7 +42,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -88,6 +90,9 @@
               "src/assets"
             ],
             "styles": [
+              {
+                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+              },
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "PractiseProject"
+    }
+  },
+  "defaultProject": "PractiseProject",
+  "cli": {
+    "analytics": false
+  }
 }

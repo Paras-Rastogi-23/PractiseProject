@@ -1,0 +1,14 @@
+:host{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+:host > * {
+    margin:20px;
+}
+
+kendo-buttongroup{
+    margin:0;
+}
